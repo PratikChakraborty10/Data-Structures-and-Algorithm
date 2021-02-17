@@ -8,6 +8,9 @@ int findUnique(int arr[], int n) {
     return res;
 }
 int main() {
+    int t;
+    cin >> t;
+    while(t--) {
     int n;
     cin >> n;
     int *arr = new int[n];
@@ -16,4 +19,6 @@ int main() {
     }
     int ans = findUnique(arr, n);
     cout << ans << endl;
+    }
+    return 0;
 }
